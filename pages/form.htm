@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+	template.htm
+	Copyright (c) 2018 by Belaihun Desalegn Feleke
+	All Rights Reserved	
+	A website assignment using Bootstrap 3.3.7
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+-->
+<head>
+	<title>Habesha Organic Food Shop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	 <!-- Bootstrap v3.3.7 Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Bootstrap v3.3.7 Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
+	<!-- Bootstrap v3.3.7 Latest compiled and minified JavaScript --> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylsheet" href="../styles/template.css">
+	<link rel="stylesheet" href="../styles/overrides.css">
+	<link href="https://fonts.googleapis.com/css?family=Aladin|Cuprum" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid" ><!-- Corresponds to <main> tag in HTML5 -->
+		<div class="jumbotron" >
+			<div class="row"> <!-- row 1, 1x12 cols wide, like header in HTML5 --> 
+				<div class="col-sm-12">
+					<h1>Habesha Organic Food Shop</h1>
+					<h2><img src="../images/aa.jpg" class="img-circle" width="100" height= "100" alt="Organic Inc&#149">Variety of Whole Organic Foods</h2>
+				</div>	
+			</div> 
+		</div><!-- end row 1 -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid" id="ddd"> <!-- nested -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="organic.htm"></a>
+					<img class="img-responsive"></a>
+				</div> <!-- end navbar-header" -->
+				<ul class="nav navbar-nav">
+					<li><a href="../index.htm">Home</a></li>
+					<li><a href="olist.htm">The List of Foods</a></li>
+					<li><a href="table.htm">Category of Foods</a></li>
+					<li><a href="ulist.htm">Product Management</a></li>
+					<li class="active"><a href="form.htm">Shopping Access</a></li>
+					<li><a href="gallery.htm">Gallery</a></li>
+					<li><a href="video.htm">About Us</a></li>
+				</ul>
+			</div> <!-- end nested container-fluid -->
+		</nav>
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+			<div class="col-sm-4"> <!-- left column, like HTML5 article -->
+				<h2>Online Shopping</h2>
+				<img src="../images/form.jpg" class="img-circle" width="300" height="300" alt="form1.jpg">
+				<img class="img-responsive">
+				<!--<a href="https://pixabay.com/en/marketing-online-social-media-online-1427786/"</a> -->
+				<!-- <a href="https://www.shutterstock.com/image-photo/young-woman-market-129146456"> -->
+				<p>More people than ever before in history are using the Web to shop for a wide variety of items, from houses to shoes to airplane tickets. What are the advantages of online shopping? Are there benefits to using the Web to buy what you need? Are there any cons of online shopping that you, as the consumer, should know about and be aware of? This and other concerns are raised by online marketing users if specially they are new for a given online marketing web site.</p>
+				<p>In addition to in store marketing, we also sell our organic foods online. It's digital technology eras so a lot convenient than traditional marketing system. Our web page and online marketing system is well secured so that our it's trusted by our online customers.</P>
+				<p>An Online purchase, In comparison to in store purchasing with fixed hours, online shoppers can choose any time of the day or night to get on the Web and shop. This is especially useful for moms with small children, people that are home-bound, or simply in times of inclement weather; not to mention if you just need to get the item within a certain amount of time and want the absolute most convenient way to go about procuring it.</p> 
+				<p>We deliver our food products to our customers whose address is with in 15 miles away from our store. We have different delivery options. The first one is the "Fast" delivery. Our fast delivery is with in two hours delivery after the order is received.</p>
+			</div> <!-- end left column -->
+			<div class="col-sm-4"> <!-- middle column, like HTML5 article -->
+				<h2>Order Here</h2>
+				<form action="mailto:bdf1591@hawkmail.hacc.edu">
+					<div class="form-group" class="form-control">
+						<fieldset>
+							<legend>Customer Information:</legend><br>
+							Given Name:<br>
+							<input type="text" name="gName" id="gName" Value="Enter first name" size="40" maxlength="25px"><br>
+							Family Name:<br>
+							<input type="text" name="fName" id="fName" Value="Enter last name" size="20" maxlength="25px"><br>
+							Card#:<br>
+							<input type="text" name="cNumber" id="cNumber" Value="Enter card#" size="20" maxlength="10px"><br>
+							CVV#:<br>
+							<input type="text" name="cvv" id="cvvNumber" Value="Enter cvv#" size="20" maxlength="9px"><br>
+							<strong>Contact Information:</strong><br>
+							<label for="phone#">Phone Number:</label>
+							<input type="text" name="phone#" id="phone#" value="Enter phone#">
+							<label for="address">Enter Address:</label>
+							<input type="text" name="address" Id="enter address" value="Full address">
+						</fieldset>
+							<b>Date of Birth:</b><br>
+						<select name="Month">
+							<option> Month </option>
+							<option value="January">January</option>
+							<option value="Febuary">Febuary</option>
+							<option value="March">March</option>
+							<option value="April">April</option>
+							<option value="May">May</option>
+							<option value="June">June</option>
+							<option value="July">July</option>
+							<option value="August">August</option>
+							<option value="September">September</option>
+							<option value="October">October</option>
+							<option value="November">November</option>
+							<option value="December">December</option>
+						</select>
+						<select name="Day">
+							<option> Day </option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>
+						<select name="Year">
+							<option> Year </option>
+							<option value="19XX">20XX</option>
+							<option value="19XX">2000</option>
+							<option value="19XX">1999</option>
+							<option value="19XX">1998</option>
+							<option value="1997">1997</option>
+							<option value="1996">1996</option>
+							<option value="1995">1995</option>
+							<option value="1994">1994</option>
+							<option value="1993">1993</option>
+							<option value="1992">1992</option>
+							<option value="1991">1991</option>
+							<option value="1990">1990</option>
+							<option value="1989">1989</option>
+							<option value="1988">1988</option>
+							<option value="1987">1987</option>
+							<option value="1986">1986</option>
+							<option value="1985">1985</option>
+							<option value="1984">1984</option>
+							<option value="1983">1983</option>
+							<option value="1982">1982</option>
+							<option value="1981">1981</option>
+							<option value="1980">1980</option>
+							<option value="1979">1979</option>
+							<option value="1978">1978</option>
+							<option value="1977">1977</option>
+							<option value="1976">1976</option>
+							<option value="1975">1975</option>
+							<option value="1974">1974</option>
+							<option value="1973">1973</option>
+							<option value="1972">1972</option>
+							<option value="1971">1971</option>
+							<option value="1970">1970</option>
+							<option value="1969">1969</option>
+							<option value="1968">1968</option>
+							<option value="1967">1967</option>
+							<option value="1966">1966</option>
+							<option value="1965">1965</option>
+							<option value="1964">1964</option>
+							<option value="1963">1963</option>
+							<option value="1962">1962</option>
+							<option value="1961">1961</option>
+							<option value="1960">1960</option>
+							<option value="1959">1959</option>
+							<option value="1958">1958</option>
+							<option value="1957">1957</option>
+							<option value="1956">1956</option>
+							<option value="1955">1955</option>
+							<option value="1954">1954</option>
+							<option value="1953">1953</option>
+							<option value="1952">1952</option>
+							<option value="1951">1951</option>
+							<option value="1950">19xx<option>
+						</select><br>
+						<fieldset>
+							<legend>Notice for Special Order:</legend>
+							<textarea name="message" rows="2" cols="39">
+							</textarea><br>
+						</fieldset>	
+						<fieldset>
+							<legend>Demographic Information</legend>
+							<b>Gender:</b><br>
+							<input type="radio" name="gender" id="mgender" value="M" checked>
+							<label for="mgender">Male</label>
+							<input type="radio"name="gender" id="fgende" value="F">
+							<label for="fgender">Female</label>
+							<input type="radio" name="gender" id="ugender" value="U">
+							<label for="ugender">Undeclared</label>
+						</fieldset>
+						<select name="fooditems" size="2">
+							<option value="vegetable">Cabbage</option><br>
+							<option value="vegetable">Lettuce</option><br>
+							<option value="vegetable">Tomato</option><br>
+							<option value="vegetable">Cucumber</option><br>
+							<option value="vegetable">Carrot</option><br>
+							<option value="fruit">Apple</option><br>
+							<option value="fruit">Banana</option><br>
+							<option value="fiat">Strawberry</option><br>
+							<option value="fruit">Orange</option><br>
+							<option value="crop">Green Beans</option><br>
+							<option value="crop">Pea</option><br>
+							<option value="crop">Maize</option><br>
+							<option value="deli">Beef</option><br>
+						</select><br>
+						<fieldset>
+							<legend>Delivery Style:</legend>
+							<input type="checkbox" name="delivery" id="fast" value="Fast">
+							<label for="fast">Fast</label>
+							<input type="checkbox" name="delivery" id="standard" value="Standard">
+							<label for="standard">Standard</label>
+							<input type="checkbox" name="delivery" id="special" value="Special">
+							<label for="special">Special</label>
+							<input type="checkbox" name="food crop" id="pick up" value="Pickup">
+							<label for="pickup">Pick up</label><br>
+							<Legend>Agreement:</legend>	
+							<label for="signature">Sign and Agree:</label> 
+							<input type="text" name="signature" value="Sign here"><br>
+							<label for="date">Enter Date:</label>
+							<input type="text" name="date" value="mm/dd/yyyy"><br>
+							<input type="submit" value="Submit">
+							<input type="reset" value="Reset">
+						</fieldset>
+					</div>
+				</form>
+			</div> <!-- end middle column -->
+			<div class="col-sm-4"> <!-- right column, like HTML5 article -->
+				<h2>Do You Know This?</h2>
+				<p>Once we received confirmation of online order from our customers, we guarantee the customers to effectively process and deliver the food products that they ordered. We deliver our food products with optimum quality, and quantity as fresh organic basis. Before we deliver the orders, we may contact the customer to verify whether the address is correct as well as their orders.</p>
+				<p>We have two different methods that customers can order online for delivery. The first one is ordering online on Internet through our web site. If the customer is first time user, he/she will be opt to create new account on the web page. Once the customer created his/her account, they should save both user name and password to login back to our website. The web site will remember passwords and user names but it isn't recommended for security reason. It's better to keep any user names and passwords in a secure place rather than on the browser or Internet. If password or user name is lost, the web page will assist how to change and renew either password or user name through two-steps identity verification.</p>
+				<p> Following the account set up, there terms and conditions to understand the customers about our online marketing policy. Customers are expected to read, understand and agree to the terms and conditions before they place their orders. For example, the customer will pay for delivery options they choose so they have to understand before placing their online order. On the other hand our shop don't have return policy once purchase is confirmed. If the delivery is late than the estimated time, then the customer can claim to 25% discount of total purchased price and up to free delivery cost.</p>
+				<p> With online purchasing, our customers have the ability to compare prices from hundreds of different vendors. We also have reward points to our customers based on the amount of purchase that they made. If customers earn 120 points with in 28 days of purchase during promotion time, they will get $10 discount distributed per purchase for the next 28 days of purchase.</p>
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->		
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<p>Phone :171 503-0808</p>
+				<p>Email :Belaihun@Gmail.com</p>
+				<p>Copyright &#169; 2018 by Belaihun Desalegn Feleke &#149; All rights reserved.</p>
+			</div>
+		</div> <!-- end row 3 -->
+	</div> <!-- end container-fluid -->
+</body>
+</html>
