@@ -1,2 +1,2 @@
-# Organic-Food-Shop
+# Customer Feedback and Ratting Application
 Independent Class Project
